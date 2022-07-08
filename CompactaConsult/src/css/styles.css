@@ -113,16 +113,16 @@ main {
 }
 main h1 {
   width: 40%;
-  font-size: 4rem;
+  font-size: 7rem;
   text-align: center;
-  text-shadow: #070707 2px 2px;
+  text-shadow: #070707 3px 3px 3px ;
 }
 main .more {
-  background-color: rgb(1, 180, 204);
+  background-color: rgb(2, 200, 214);
   color: rgb(10, 8, 8);
   border: none;
   border-radius: 10rem;
-  padding: 0.6rem 3rem;
+  padding: 0.8rem 5rem;
   margin-top: 2%;
 }
 
