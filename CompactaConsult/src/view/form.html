@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="BP" />
+    <meta
+      name="description"
+      content="Compacta Consult é uma empresa que atua na prestação de serviços de sistemas e suporte."
+    />
+    <meta name="keywords" content="Consult" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="Portuguese" />
+
+    <link rel="icon" type="image/png" href="" sizes="196x196" />
+    <link rel="icon" type="image/png" href="" sizes="96x96" />
+    <link rel="icon" type="image/png" href="" sizes="32x32" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="src/images/icons/logo"
+      sizes="16x16"
+    />
+
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#" />
+    <meta name="theme-color" content="#000#000" />
+    <title>Compacta Consult</title>
+    <link rel="stylesheet" href="../css/stylesForm.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <a
+      target="_blank"
+      class="wpp-button"
+      href="https://api.whatsapp.com/send?phone=+55%2061%2099811-9120&text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <header id="header">
+      <p>Compacta Consult</p>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li class="nav-item">
+            <a class="active" href="#home">
+              Home
+              <hr />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#services"> Serviços </a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery"> Galeria </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about"> Sobre </a>
+          </li>
+          <li class="nav-item">
+            <a href="#content"> Contatos </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="home">
+      <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Seu Nome</label>
+        </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Seu Email</label>
+        </div>
+
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Escreva sua mensagem aqui !</label>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input
+            class="form-check-input me-2"
+            type="checkbox"
+            value=""
+            id="form4Example4"
+            checked
+          />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">
+          Enviar
+        </button>
+      </form>
+    </main>
+
+    <footer>
+      <small>© 2022 - Compacta Consult. Todos os direitos reservados.</small>
+      <div id="links">
+        <a href="#home">Voltar ao topo</a>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-208667854-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-208667854-1");
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
