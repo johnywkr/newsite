@@ -111,27 +111,7 @@ main {
   justify-content: center;
   align-items: center;
   display: flex;
-  padding-top: 100px;
-}
-main h1 {
-  width: 40%;
-  font-size: 4rem;
-  text-align: center;
-  text-shadow: #070707 2px 2px;
-}
-main .more {
-  background-color: rgb(1, 180, 204);
-  color: rgb(10, 8, 8);
-  border: none;
-  border-radius: 10rem;
-  padding: 0.6rem 3rem;
-  margin-top: 2%;
-}
-
-main a:hover {
-  text-decoration: underline;
-  color: rgb(252, 251, 249);
-  font-size: 150%;
+  
 }
 
 footer {
@@ -149,9 +129,10 @@ footer {
 
 form {
   background-color: #666666c0;
+  width: 1000px;
   padding: 100px;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
