@@ -111,7 +111,6 @@ main {
   justify-content: center;
   align-items: center;
   display: flex;
-  
 }
 
 footer {
@@ -218,55 +217,12 @@ form {
     width: 100%;
     font-size: 2rem;
   }
-  section#budget .services-category {
-    justify-items: center;
-  }
-  section#services .card-section {
-    padding: 0 0;
-    row-gap: 0%;
-    grid-template-columns: 1fr;
-  }
-  section#services .card-section .card {
-    width: 80vw;
-    margin: 1rem 0;
-  }
-  section#gallery .grid-gallery {
-    grid-template-columns: 1fr;
-    padding: 0 2.4rem;
-    column-gap: 5%;
-    display: grid;
-  }
-  section#maps {
-    min-height: 100vh;
-    margin-top: 15%;
-  }
-  section#about .about-grid {
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-  section#about p {
-    width: 100%;
-  }
 
-  section#informations {
-    padding: 0;
-    justify-items: flex-start;
-    grid-template-columns: 1fr;
-    padding: 0 1rem;
-    flex-wrap: wrap;
-  }
-  section#informations .content {
-    color: #666666;
-    padding: 1rem 0;
-    font-weight: 300;
-  }
-  section#informations ul {
-    padding: 0 1.4rem;
-  }
-  section#informations ul li {
-    padding: 0.2rem 0;
+  form {
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
   }
 }
