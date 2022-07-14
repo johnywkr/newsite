@@ -59,7 +59,7 @@ a {
 }
 
 #menu a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(10, 219, 247);
   font-size: 150%;
 }
@@ -74,7 +74,7 @@ a {
 }
 
 #menu a.active:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(10, 219, 247);
   font-size: 150%;
 }
@@ -150,7 +150,7 @@ section#budget h2 {
 }
 section#budget a.btn {
   background-color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   border: none;
   border-radius: 10rem;
@@ -308,13 +308,14 @@ section#about #contact #numbers {
 }
 
 section#about #contact #bt button{
+  margin-top: 15px;
   background-color: rgba(7, 7, 7, 0.808);
   border-radius: 5px;
   color: #fafafa;
 }
 
 section#about #contact #bt button:hover{
-  color: #19fc05;
+  color: #95dbdd;
   font-size: 100%;
 }
 
@@ -455,7 +456,7 @@ footer {
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
   }
   #btn-mobile {
-    color: gray;
+    color: rgb(7, 240, 248);
     display: flex;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -498,7 +499,7 @@ footer {
     text-align: center;
   }
   section#budget {
-    min-height: 60vh;
+    min-height: 35vh;
     justify-items: center;
     justify-content: center;
     grid-template-columns: 1fr;
@@ -506,8 +507,19 @@ footer {
   }
   section#budget h2 {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
+
+  section#budget a.btn {
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10rem;
+    padding: 0.8rem 2rem;
+    margin-bottom: 100px;
+  }
+
   section#budget .services-category {
     justify-items: center;
   }
