@@ -1,9 +1,9 @@
 var purecookieTitle = "Cookies.",
         purecookieDesc =
-          "By using this website, you automatically accept that we use cookies.",
+          "Ao usar este site. você aceita automaticamente que usamos cookies.",
         purecookieLink =
-          '<a href="https://www.cssscript.com/privacy-policy/" target="_blank">What for?</a>',
-        purecookieButton = "Understood";
+          '<a href="https://www.cssscript.com/privacy-policy/" target="_blank">Pelo que?</a>',
+        purecookieButton = "Entendido";
       function pureFadeIn(e, o) {
         var i = document.getElementById(e);
         (i.style.opacity = 0),
