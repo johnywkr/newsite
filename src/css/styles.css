@@ -139,7 +139,7 @@ section {
 section#budget {
   background-color: rgb(0, 0, 0);
   color: white;
-  min-height: 35vh;
+  min-height: 40vh;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
