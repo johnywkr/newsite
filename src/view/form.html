@@ -47,57 +47,31 @@
   </head>
   <body>
     <header id="header">
-      <p>Compacta Consult</p>
-      <nav id="nav">
-        <button
-          aria-label="Abrir Menu"
-          id="btn-mobile"
-          aria-haspopup="true"
-          aria-controls="menu"
-          aria-expanded="false"
-        >
-          <span id="hamburger"></span>
-        </button>
-        <ul id="menu" role="menu">
-          <li class="nav-item">
-            <a class="active" href="../../index.html">
-              Home
-              <hr />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#services"> Serviços </a>
-          </li>
-          <li class="nav-item">
-            <a href="#gallery"> Galeria </a>
-          </li>
-          <li class="nav-item">
-            <a href="#about"> Sobre </a>
-          </li>
-          <li class="nav-item">
-            <a href="#content"> Contatos </a>
-          </li>
-        </ul>
-      </nav>
+      <a href="../../index.html"><p>Compacta Consult</p></a>
     </header>
     <main id="home">
       <form>
         <h1>Entre em Contato !</h1>
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input type="text" id="form4Example1" class="form-control" />
+          <input type="text" id="form4Example1" class="form-control" required />
           <label class="form-label" for="form4Example1">Seu Nome</label>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="form4Example2" class="form-control" />
+          <input
+            type="email"
+            id="form4Example2"
+            class="form-control"
+            required
+          />
           <label class="form-label" for="form4Example2">Seu Email</label>
         </div>
 
         <!-- Message input -->
         <div class="form-outline mb-4">
-          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <textarea class="form-control" id="form4Example3" rows="4" required></textarea>
           <label class="form-label" for="form4Example3"
             >Escreva sua mensagem aqui !</label
           >

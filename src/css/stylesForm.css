@@ -41,43 +41,12 @@ p {
   position: fixed;
 }
 
-#menu {
-  list-style: none;
-  gap: 0.5rem;
-  display: flex;
-}
-a {
-  color: var(--text-black-light);
+#header a {
   text-decoration: none;
 }
-#menu a {
-  color: #fcf8f8;
-  font-weight: 400;
-  text-decoration: none;
-  display: block;
-  letter-spacing: 0.1rem;
-  padding: 0.5rem;
-}
 
-#menu a:hover {
-  text-decoration: underline;
-  color: rgb(10, 219, 247);
-  font-size: 150%;
-}
-
-#menu a hr {
-  width: 50%;
-  color: rgb(255, 255, 255);
-}
-
-#menu a.active {
-  color: rgb(255, 249, 249);
-}
-
-#menu a.active:hover {
-  text-decoration: underline;
-  color: rgb(10, 219, 247);
-  font-size: 150%;
+#header a,p:hover {
+  color: #02fff2;
 }
 
 #btn-mobile {

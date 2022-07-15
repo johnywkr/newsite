@@ -27,6 +27,11 @@ html {
   font-size: 30px;
 }
 
+#logo p:hover {
+  color: rgb(1, 241, 253);
+  font-size: 30px;
+}
+
 #header {
   background: #000d36;
   width: 100%;
