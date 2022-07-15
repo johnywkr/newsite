@@ -199,6 +199,7 @@ section#services .card-section .card {
   flex-direction: column;
   align-items: center;
   display: flex;
+  border-color: #03c5f5;
 }
 section#services .card-section .card h1 {
   color: #222222;
@@ -504,7 +505,7 @@ footer {
     text-align: center;
   }
   section#budget {
-    min-height: 35vh;
+    min-height: 40vh;
     justify-items: center;
     justify-content: center;
     grid-template-columns: 1fr;
@@ -522,11 +523,11 @@ footer {
     border: none;
     border-radius: 10rem;
     padding: 0.8rem 2rem;
-    margin-bottom: 100px;
   }
 
   section#budget .services-category {
     justify-items: center;
+    margin-bottom: -100px;
   }
   section#services .card-section {
     padding: 0 0;
@@ -535,7 +536,9 @@ footer {
   }
   section#services .card-section .card {
     width: 80vw;
+    min-height: 10rem;
     margin: 1rem 0;
+    border-color: #03bdf5;
   }
   section#gallery .grid-gallery {
     grid-template-columns: 1fr;
