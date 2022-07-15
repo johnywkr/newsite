@@ -50,11 +50,11 @@
       <a href="../../index.html"><p>Compacta Consult</p></a>
     </header>
     <main id="home">
-      <form>
+      <form action="https://api.staticforms.xyz/submit" method="POST">
         <h1>Entre em Contato !</h1>
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input type="text" id="form4Example1" class="form-control" required />
+          <input type="text" id="form4Example1" class="form-control" required maxlength="25" minlength="2"/>
           <label class="form-label" for="form4Example1">Seu Nome</label>
         </div>
 
@@ -65,13 +65,14 @@
             id="form4Example2"
             class="form-control"
             required
+            maxlength="35"
           />
           <label class="form-label" for="form4Example2">Seu Email</label>
         </div>
 
         <!-- Message input -->
         <div class="form-outline mb-4">
-          <textarea class="form-control" id="form4Example3" rows="4" required></textarea>
+          <textarea class="form-control" id="form4Example3" rows="4" required maxlength="150"></textarea>
           <label class="form-label" for="form4Example3"
             >Escreva sua mensagem aqui !</label
           >

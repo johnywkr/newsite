@@ -49,9 +49,6 @@ p {
   color: #02fff2;
 }
 
-#btn-mobile {
-  display: none;
-}
 .wpp-button {
   background-color: #25d366;
   color: #fff;
@@ -82,6 +79,18 @@ main {
   display: flex;
 }
 
+input:focus, textarea:focus{
+  border-color: #02fff2 !important;
+}
+
+input:invalid, textarea:invalid{
+  border-color: red ;
+}
+
+input:valid, textarea:valid{
+  border-color: #01fa5c;
+}
+
 footer {
   background-color: rgb(37, 37, 37);
   color: rgb(241, 236, 236);
@@ -109,85 +118,7 @@ form {
   #header {
     padding: 1rem 1rem;
   }
-  #menu {
-    background: rgb(46, 44, 44);
-    width: 100%;
-    height: 0px;
-    top: 100px;
-    right: 0px;
-    position: absolute;
-    transition: 0.6s;
-    z-index: 1000;
-    visibility: hidden;
-    overflow-y: hidden;
-    display: block;
-  }
-  #nav.active #menu {
-    height: calc(100vh - 70px);
-    visibility: visible;
-    overflow-y: auto;
-  }
-  #menu a {
-    padding: 1rem 0;
-    margin: 0 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-  }
-  #btn-mobile {
-    color: gray;
-    display: flex;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap: 0.5rem;
-  }
-  #hamburger {
-    border-top: 2px solid;
-    width: 20px;
-  }
-  #hamburger::after,
-  #hamburger::before {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: 0.3s;
-    position: relative;
-  }
-  #nav.active #hamburger {
-    border-top-color: transparent;
-  }
-  #nav.active #hamburger::before {
-    transform: rotate(135deg);
-  }
-  #nav.active #hamburger::after {
-    transform: rotate(-135deg);
-    top: -7px;
-  }
-  #menu a hr {
-    display: none;
-  }
-  main h1 {
-    width: 80%;
-    font-size: 3rem;
-    text-align: center;
-  }
-
-  section#budget {
-    min-height: 60vh;
-    justify-items: center;
-    justify-content: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-  }
-  section#budget h2 {
-    width: 100%;
-    font-size: 2rem;
-  }
-
+ 
   form {
     background-color: #666666c0;
     width: 300px;
