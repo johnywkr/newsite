@@ -157,11 +157,7 @@
           </p>
         </div>
         <div class="card">
-          <img
-            src="src/images/foto-04.jpg"
-            alt="HARDWARE"
-            loading="lazy"
-          />
+          <img src="src/images/foto-04.jpg" alt="HARDWARE" loading="lazy" />
           <h1>Assistência Técnica</h1>
           <hr />
           <p>Manutençâo em Impressoras, Nobreaks, Monitores, Computadores !</p>
@@ -268,6 +264,69 @@
         </div>
       </section>
     </div>
+
+    <form action="https://api.staticforms.xyz/submit" method="POST">
+      <input
+        type="hidden"
+        name="accessKey"
+        value="41879933-7e5f-4df3-a127-a5288c318fbe"
+      />
+      <input
+        type="hidden"
+        name="redirectTo"
+        value="https://coruscating-bubblegum-eb6d0a.netlify.app/src/view/form.html"
+      />
+
+      <h1>Entre em Contato !</h1>
+      <!-- Name input -->
+      <div class="form-outline mb-4">
+        <input
+          type="text"
+          id="form4Example1"
+          name="name"
+          class="form-control"
+          required
+          maxlength="25"
+          minlength="2"
+        />
+        <label class="form-label" for="form4Example1">Seu Nome</label>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input
+          type="email"
+          id="form4Example2"
+          name="email"
+          class="form-control"
+          required
+          maxlength="35"
+        />
+        <label class="form-label" for="form4Example2">Seu Email</label>
+      </div>
+
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea
+          class="form-control"
+          id="form4Example3"
+          name="message"
+          rows="4"
+          required
+          maxlength="150"
+        ></textarea>
+        <label class="form-label" for="form4Example3"
+          >Escreva sua mensagem aqui !</label
+        >
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">
+        Enviar
+      </button>
+      <input type="text" name="honeypot" style="display: none" />
+    </form>
+
     <section id="informations">
       <div>
         <h1>Sobre</h1>
