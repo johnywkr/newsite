@@ -1,113 +1,54 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-:root {
-  --primary-text: rgb(65, 65, 65);
-  --text-black-medium: rgb(85, 85, 85);
-  --text-black-light: rgb(116, 116, 116);
-  --text-gray: #666666;
-  --padding-left-right: 4rem;
-  --padding-left-rigt-mobile: 1rem;
-}
-body,
-html {
-  position: relative;
-
-  min-height: 100vh;
-  scroll-padding-top: 0;
-  scroll-behavior: smooth;
-  font-family: "Inter", sans-serif;
-}
-p {
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-#header {
-  background: #000d36;
-  width: 100%;
-  min-height: 70px;
-  padding-left: 5%;
-  padding-right: 5%;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  position: fixed;
-}
-
-#header a {
-  text-decoration: none;
-}
-
-#header a,p:hover {
-  color: #02fff2;
-}
-
-.wpp-button {
-  background-color: #25d366;
-  color: #fff;
-  width: 3.5rem;
-  height: 3.5rem;
-  text-align: center;
-  font-size: 1.4rem;
-  border-radius: 4rem;
-  right: 0.8rem;
-  bottom: 0.8rem;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: fixed;
-}
-
-main {
+#form {
   background-image: url(https://cdn2.hubspot.net/hubfs/2973708/Blog%20de%20Sistemas%20de%20Informa%C3%A7%C3%A3o/curso-de-sistemas-de-informacao.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: white;
-  min-height: 100vh;
+  min-height: 120vh;
+  margin-top: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-input:focus, textarea:focus{
+#form h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#form input,
+textarea {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+input:focus,
+textarea:focus {
   border-color: #02fff2 !important;
 }
 
-input:invalid, textarea:invalid{
-  border-color: red ;
+input:invalid,
+textarea:invalid {
+  border-color: red;
 }
 
-input:valid, textarea:valid{
+input:valid,
+textarea:valid {
   border-color: #01fa5c;
-}
-
-footer {
-  background-color: rgb(37, 37, 37);
-  color: rgb(241, 236, 236);
-  font-size: 0.7rem;
-  width: 100%;
-  height: 10vh;
-  padding: 0 1rem;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  display: flex;
 }
 
 form {
   background-color: #666666c0;
   width: 500px;
-  height: 500px;
+  height: 450px;
   padding: 30px;
   border-radius: 10px;
   margin-top: 180px;
@@ -118,7 +59,7 @@ form {
   #header {
     padding: 1rem 1rem;
   }
- 
+
   form {
     background-color: #666666c0;
     width: 300px;
