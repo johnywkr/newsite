@@ -1,6 +1,5 @@
-form{
+form {
   margin-left: 600px;
-
 }
 
 #form {
@@ -51,7 +50,7 @@ textarea:valid {
   border-color: #01fa5c;
 }
 
-label{
+label {
   display: block;
   padding-left: 10px;
   margin-top: -5px;
@@ -95,9 +94,7 @@ button:hover {
     width: 300px;
     height: 500px;
     padding: 20px;
-    border-radius: 10px;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    border-radius: 11px;
   }
 
   #form input,
@@ -105,5 +102,12 @@ button:hover {
     width: 250px;
     padding: 0.9em;
     margin: 10px;
+  }
+
+  #form{
+    min-height: 10px;
+  }
+  form {
+    margin-left: 0;
   }
 }

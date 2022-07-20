@@ -547,7 +547,7 @@ footer {
     display: grid;
   }
   section#maps {
-    min-height: 100vh;
+    min-height: 60vh;
     margin-top: 15%;
   }
   section#about .about-grid {
