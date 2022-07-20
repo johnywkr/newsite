@@ -1,3 +1,8 @@
+form{
+  margin-left: 600px;
+
+}
+
 #form {
   background-image: url(https://cdn2.hubspot.net/hubfs/2973708/Blog%20de%20Sistemas%20de%20Informa%C3%A7%C3%A3o/curso-de-sistemas-de-informacao.jpg);
   background-repeat: no-repeat;
@@ -25,7 +30,7 @@
 
 #form input,
 textarea {
-  width: 300px;
+  width: 420px;
   padding: 10px;
   margin: 10px;
   border-radius: 0.375rem;
