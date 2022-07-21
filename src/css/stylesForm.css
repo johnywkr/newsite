@@ -108,16 +108,19 @@ section#budget h2 {
   text-decoration: none;
 }
 section#budget a.btn {
-  background-color: white;
+  background-color: rgb(37, 37, 37);
+  color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
   border: none;
   border-radius: 10rem;
+  border: solid;
+  border-color: #fff;
   padding: 0.8rem 2rem;
 }
 
 section#budget a.btn:hover {
-  color: rgb(255, 0, 0);
+  color: #04fdfd;
   font-size: 150%;
 }
 
