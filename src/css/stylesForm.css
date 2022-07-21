@@ -50,11 +50,11 @@ p {
 }
 
 #header h1 {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-size: 22px;
   padding: 7px;
   border: solid ;
-  border-color: #02fff2;
+  border-color: #ff0000;
   border-radius: 11px;
 }
 

@@ -637,6 +637,10 @@ footer {
     min-height: 60vh;
     margin-top: 15%;
   }
+
+  div section#about {
+    margin-top: 50px;
+  }
   section#about .about-grid {
     height: 100%;
     flex-direction: column;
@@ -682,11 +686,10 @@ footer {
     margin: 10px;
   }
 
-  #form{
+  #form {
     min-height: 10px;
   }
   form {
     margin-left: 0;
   }
-
 }
