@@ -45,7 +45,8 @@ p {
   text-decoration: none;
 }
 
-#header a,p:hover {
+#header a,
+p:hover {
   color: #02fff2;
 }
 
@@ -53,7 +54,7 @@ p {
   color: rgb(255, 255, 255);
   font-size: 22px;
   padding: 7px;
-  border: solid ;
+  border: solid;
   border-color: #ff0000;
   border-radius: 11px;
 }
@@ -72,16 +73,52 @@ main {
   display: flex;
 }
 
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
   border-color: #02fff2 !important;
 }
 
-input:invalid, textarea:invalid{
-  border-color: red ;
+input:invalid,
+textarea:invalid {
+  border-color: red;
 }
 
-input:valid, textarea:valid{
+input:valid,
+textarea:valid {
   border-color: #01fa5c;
+}
+
+section {
+  scroll-margin-top: 5rem;
+}
+
+section#budget {
+  background-image: url(http://topprodutor.com.br/wp-content/uploads/2020/07/wallpaper-abstracto-3d-1024x576.jpg);
+  
+  
+  color: white;
+  min-height: 40vh;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+}
+section#budget h2 {
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+section#budget a.btn {
+  background-color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10rem;
+  padding: 0.8rem 2rem;
+}
+
+section#budget a.btn:hover {
+  color: rgb(255, 0, 0);
+  font-size: 150%;
 }
 
 footer {
@@ -111,7 +148,7 @@ form {
   #header {
     padding: 1rem 1rem;
   }
- 
+
   form {
     background-color: #666666c0;
     width: 300px;
