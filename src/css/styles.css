@@ -171,10 +171,7 @@ section#budget .services-category {
   grid-template-columns: 1fr 1fr;
   display: grid;
 }
-section#budget .services-category ul {
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
+
 section#services {
   min-height: 100vh;
   padding: 4rem 2rem;
