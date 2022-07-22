@@ -105,6 +105,8 @@ section#budget {
 section#budget h2 {
   font-size: 2.4rem;
   text-decoration: none;
+  -webkit-text-stroke: 1px rgb(5, 5, 5);
+  color: rgb(250, 252, 250);
 }
 section#budget a.btn {
   background-color: rgb(37, 37, 37);
@@ -114,7 +116,7 @@ section#budget a.btn {
   border: none;
   border-radius: 10rem;
   border: solid;
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.945);
   padding: 0.8rem 2rem;
 }
 
@@ -147,10 +149,16 @@ form {
 }
 
 @media (max-width: 600px) {
-  #header{
+  #header {
     display: block;
     padding: 1rem 1rem;
-    align-items: flex-start;
+  }
+  #header h1 {
+    text-align: center;
+  }
+  p {
+    display: inline;
+    padding-left: 15%;
   }
 
   section#budget {
@@ -178,7 +186,6 @@ form {
     padding: 0.8rem 2rem;
     margin-bottom: 30px;
   }
-
 
   form {
     background-color: #666666c0;
