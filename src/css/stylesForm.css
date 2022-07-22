@@ -29,7 +29,8 @@ p {
 }
 
 #header {
-  background: #000d36;
+  background-image: url(https://mobimg.b-cdn.net/v3/fetch/84/84738f85d5f04b91e003c35a0b5c40e2.jpeg);
+  background-size: 100% 100%;
   width: 100%;
   min-height: 70px;
   padding-left: 5%;
@@ -94,7 +95,7 @@ section {
 
 section#budget {
   background-image: url(http://topprodutor.com.br/wp-content/uploads/2020/07/wallpaper-abstracto-3d-1024x576.jpg);
-
+  background-size: cover;
   color: white;
   min-height: 40vh;
   grid-template-columns: 1fr 1fr;
