@@ -142,6 +142,8 @@ section#budget a.btn {
 section#budget a.btn:hover {
   color: #04fdfd;
   font-size: 150%;
+  border: solid;
+  border-color: aqua;
 }
 
 footer {
@@ -196,24 +198,21 @@ form {
     background-image: none;
   }
   #text h2 {
-    background-image: url(https://http2.mlstatic.com/D_NQ_NP_640725-MLB47542943141_092021-O.jpg); 
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_640725-MLB47542943141_092021-O.jpg);
     padding: 12px;
     margin-top: 4px;
     font-size: 20px;
   }
 
   section#budget {
-    min-height: -50vh;
+    min-height: 1vh;
     justify-items: center;
     justify-content: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
   }
   section#budget h2 {
-    width: 100%;
-    height: 10px;
     font-size: 1.9rem;
-    margin-top: 200px;
   }
 
   section#budget a.btn {
