@@ -199,7 +199,7 @@ form {
     background-color: #3434369c;
   }
   #text h2 {
-   text-overflow: #000 2px 2px;
+   text-shadow: #000 1px 1px;
     padding: 12px;
     margin-top: 4px;
     font-size: 20px;
