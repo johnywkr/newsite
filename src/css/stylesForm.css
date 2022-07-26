@@ -192,9 +192,12 @@ form {
     border-radius: 11px;
   }
 
-  
+  #text {
+    background-image: none;
+  }
   #text h2 {
-    padding: 10px;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_640725-MLB47542943141_092021-O.jpg); 
+    padding: 12px;
     font-size: 20px;
   }
 
