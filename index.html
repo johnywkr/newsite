@@ -169,7 +169,7 @@
       </h2>
       <div class="grid-gallery">
         <div class="item-gallery">
-          <img src="src/images/" loading="lazy" />
+          <img src="src/images/WhatsApp Image 2022-07-18 at 09.55.46 (1).jpeg" loading="lazy" />
         </div>
         <div class="item-gallery">
           <img
@@ -214,7 +214,7 @@
           />
         </div>
         <div class="item-gallery">
-          <img src="src/images/CC-Logo_page-0001.jpg" loading="lazy" />
+          <img src="src/img/CC-Logo_page-0001.jpg" loading="lazy" />
         </div>
       </div>
     </section>
@@ -290,67 +290,75 @@
         </div>
       </section>
     </div>
-    <section id="form">
-      <form action="https://api.staticforms.xyz/submit" method="POST">
-        <input
-          type="hidden"
-          name="accessKey"
-          value="41879933-7e5f-4df3-a127-a5288c318fbe"
-        />
-        <input
-          type="hidden"
-          name="redirectTo"
-          value="https://glittering-kleicha-5e564c.netlify.app/#form"
-        />
-        <h1>Entre em Contato !</h1>
-        <!-- Name input -->
-        <div class="form-outline mb-4">
+    <section id="form" class="container">
+      <div class="box">
+
+        <img id="a" src="https://jmos.co.ao/web/images/redes.png" alt="">
+        <form  action="https://api.staticforms.xyz/submit" method="POST">
           <input
-            type="text"
-            id="form4Example1"
-            name="name"
-            class="form-control"
-            required
-            maxlength="25"
-            minlength="2"
+            type="hidden"
+            name="accessKey"
+            value="41879933-7e5f-4df3-a127-a5288c318fbe"
           />
-          <label class="form-label" for="form4Example1">Seu Nome</label>
-        </div>
-
-        <!-- Email input -->
-        <div class="form-outline mb-4">
           <input
-            type="email"
-            id="form4Example2"
-            name="email"
-            class="form-control"
-            required
-            maxlength="35"
+            type="hidden"
+            name="redirectTo"
+            value="https://glittering-kleicha-5e564c.netlify.app/#form"
           />
-          <label class="form-label" for="form4Example2">Seu Email</label>
-        </div>
+          <h1>Entre em Contato !</h1>
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input
+              type="text"
+              id="form4Example1"
+              name="name"
+              class="form-control"
+              required
+              maxlength="25"
+              minlength="2"
+            />
+            <label class="form-label" for="form4Example1">Seu Nome</label>
+          </div>
+  
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input
+              type="email"
+              id="form4Example2"
+              name="email"
+              class="form-control"
+              required
+              maxlength="35"
+            />
+            <label class="form-label" for="form4Example2">Seu Email</label>
+          </div>
+  
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea
+              class="form-control"
+              id="form4Example3"
+              name="message"
+              rows="4"
+              required
+              maxlength="150"
+            ></textarea>
+            <label class="form-label" for="form4Example3"
+              >Escreva sua mensagem aqui !</label
+            >
+          </div>
+  
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4" id="btn">
+            Enviar
+          </button>
+        </form>
 
-        <!-- Message input -->
-        <div class="form-outline mb-4">
-          <textarea
-            class="form-control"
-            id="form4Example3"
-            name="message"
-            rows="4"
-            required
-            maxlength="150"
-          ></textarea>
-          <label class="form-label" for="form4Example3"
-            >Escreva sua mensagem aqui !</label
-          >
-        </div>
+      </div>
+      
 
-        <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-4" id="btn">
-          Enviar
-        </button>
-      </form>
     </section>
+
     <section id="informations">
       <div>
         <h1>Sobre</h1>
