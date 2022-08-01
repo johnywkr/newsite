@@ -52,12 +52,11 @@
     </header>
     <main id="home">
       <div id="text">
-        <h2>
-          Insira seus dados abaixo !
-        </h2>
+        <h2>Insira seus dados abaixo !</h2>
       </div>
       <form id="form" action="https://api.staticforms.xyz/submit" method="POST">
         <input
+          class="input"
           type="hidden"
           name="accessKey"
           value="4ca6187b-cc13-4d61-ae1a- c783ff0089bd"
@@ -70,7 +69,7 @@
 
         <h1>SUPORTE :</h1>
         <!-- Name input -->
-        <div class="form-outline ">
+        <div class="form-outline">
           <input
             type="text"
             id="form4Example1"
@@ -84,7 +83,7 @@
         </div>
 
         <!-- Empresa input -->
-        <div class="form-outline ">
+        <div class="form-outline">
           <input
             type="text"
             id="form4Example1"
@@ -98,7 +97,7 @@
         </div>
 
         <!-- Tel input -->
-        <div class="form-outline ">
+        <div class="form-outline">
           <input
             type="tel"
             id="form4Example1"
@@ -113,7 +112,7 @@
         </div>
 
         <!-- Email input -->
-        <div class="form-outline ">
+        <div class="form-outline">
           <input
             type="email"
             id="form4Example2"
@@ -126,7 +125,7 @@
         </div>
 
         <!-- Message input -->
-        <div class="form-outline mb-4">
+        <div class="form-outline mb-3">
           <textarea
             class="form-control"
             id="form4Example3"
@@ -141,8 +140,12 @@
         </div>
 
         <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block ">
-          Enviar
+        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        <button id="btn2" class="btn btn-success">
+          <a
+            href="https://api.whatsapp.com/send?phone=+55%2061%2099873-3411&text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento"
+            >Whatsapp</a
+          >
         </button>
       </form>
     </main>
