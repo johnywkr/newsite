@@ -20,16 +20,14 @@
     <link
       rel="icon"
       type="image/png"
-      href="../images/icons/logo_cc.png"
+      href="src/images/icons/logo_cc.png"
       sizes="16x16"
     />
-
     <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#" />
     <meta name="theme-color" content="#000#000" />
     <title>Compacta Consult</title>
-    <link rel="stylesheet" href="../css/stylesForm.css" />
-    <link rel="stylesheet" href="../css/cookies.css">
+    <link rel="stylesheet" href="stylesForm.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -52,21 +50,21 @@
       <h1>ATENDIMENTO AO CLIENTE</h1>
     </header>
     <main id="home">
-      <form action="https://api.staticforms.xyz/submit" method="POST">
+      <div id="text">
+        <h2>Insira seus dados abaixo !</h2>
+      </div>
+      <form id="form" action="https://api.staticforms.xyz/submit" method="POST">
         <input
+          class="input"
           type="hidden"
           name="accessKey"
-          value="41879933-7e5f-4df3-a127-a5288c318fbe"
+          value="4ca6187b-cc13-4d61-ae1a-c783ff0089bd"
         />
-        <input
-          type="hidden"
-          name="redirectTo"
-          value="https://glittering-kleicha-5e564c.netlify.app/src/view/form.html"
-        />
+        <input type="hidden" name="redirectTo" value="" />
 
         <h1>SUPORTE :</h1>
         <!-- Name input -->
-        <div class="form-outline mb-4">
+        <div class="form-outline">
           <input
             type="text"
             id="form4Example1"
@@ -80,11 +78,11 @@
         </div>
 
         <!-- Empresa input -->
-        <div class="form-outline mb-4">
+        <div class="form-outline">
           <input
             type="text"
             id="form4Example1"
-            name="subject"
+            name="name"
             class="form-control"
             required
             maxlength="30"
@@ -94,7 +92,7 @@
         </div>
 
         <!-- Tel input -->
-        <div class="form-outline mb-4">
+        <div class="form-outline">
           <input
             type="tel"
             id="form4Example1"
@@ -102,13 +100,14 @@
             class="form-control"
             required
             maxlength="15"
-            
           />
-          <label class="form-label" for="form4Example1">Telefone/Whatsapp</label>
+          <label class="form-label" for="form4Example1"
+            >Telefone/Whatsapp</label
+          >
         </div>
 
         <!-- Email input -->
-        <div class="form-outline mb-4">
+        <div class="form-outline">
           <input
             type="email"
             id="form4Example2"
@@ -121,7 +120,7 @@
         </div>
 
         <!-- Message input -->
-        <div class="form-outline mb-4">
+        <div class="form-outline mb-3">
           <textarea
             class="form-control"
             id="form4Example3"
@@ -131,24 +130,36 @@
             maxlength="200"
           ></textarea>
           <label class="form-label" for="form4Example3"
-            >Escreva seu problema aqui !</label
+            >Escreva seu problema acima, retornaremos em breve seu email.</label
+          >
+          <br>
+          <label class="form-label" for="form4Example3"></label>Ou entre em contato pelo whatsapp.</label
           >
         </div>
 
         <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-4">
-          Enviar
+        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+
+        <!-- Button whatsapp -->
+        <button id="btn2" class="btn btn-success">
+          <a
+            href="https://api.whatsapp.com/send?phone=55556198733411&text=Problema%20T%C3%A9cnico%20Preciso%20de%20Suporte%20!"
+            target="_blank"
+            >Whatsapp</a
+          >
         </button>
       </form>
     </main>
-
-    <footer>
-      <small>© 2022 - Compacta Consult. Todos os direitos reservados.</small>
-      <div id="links">
-        <a href="#home">Voltar ao topo</a>
+    <section id="budget">
+      <div id="suporte">
+        <h2>ACESSE NOSSO CURSO</h2>
       </div>
-    </footer>
-    <script src="../js/script.js"></script>
+      <div>
+        <a class="btn" href="https://drive.google.com/drive/folders/1DQ5lquc-yTGMFwk5fWQnGHJRFZKqSlgS?usp=sharing" target="_blank">Clique aqui</a>
+      </div>
+      <small>© 2022 - Compacta Consult. Todos os direitos reservados.</small>
+    </section>
+    <script src="src/js/script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -171,6 +182,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-    <script src="../js/cookies.js"></script>
+    <script src="src/js/cookies.js"></script>
   </body>
 </html>
