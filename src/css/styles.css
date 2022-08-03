@@ -49,6 +49,7 @@ html {
   list-style: none;
   gap: 0.5rem;
   display: flex;
+  flex-direction: column;
 }
 a {
   color: var(--text-black-light);

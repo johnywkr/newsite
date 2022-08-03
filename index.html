@@ -29,6 +29,7 @@
     <meta name="theme-color" content="#000#000" />
     <title>Compacta Consult</title>
     <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/cookies.css" />
     <link
       rel="stylesheet"
@@ -39,69 +40,34 @@
     />
   </head>
   <body>
-    <a
-      target="_blank"
-      class="wpp-button"
-      href="https://api.whatsapp.com/send?phone=55556198733411&text=Problema%20T%C3%A9cnico%20Preciso%20de%20Suporte%20!"
-    >
-      <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <header id="header">
-      <a id="logo" href="">
-        <p>Compacta Consult</p>
-      </a>
-      <nav id="nav">
-        <button
-          aria-label="Abrir Menu"
-          id="btn-mobile"
-          aria-haspopup="true"
-          aria-controls="menu"
-          aria-expanded="false"
-        >
-          <span id="hamburger"></span>
-        </button>
-        <ul id="menu" role="menu">
-          <li class="nav-item">
-            <a class="active" href="#home">
-              Home
-              <hr />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#services"> Serviços </a>
-          </li>
-          <li class="nav-item">
-            <a href="#gallery"> Galeria </a>
-          </li>
-          <li class="nav-item">
-            <a href="#about"> Sobre </a>
-          </li>
-          <li class="nav-item">
-            <a href="#content"> Contatos </a>
-          </li>
-          <li class="nav-item">
-            <a href="src/view/index.html"> Suporte </a>
-          </li>
-        </ul>
-      </nav>
+    <header>
+      <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776;</a>
+      <a href="" class="logo">Compacta Consult</a>
     </header>
+
+    <nav id="menu">
+      <a href="#" onclick="fecharMenu()">&times; Menu</a>
+      <a href="#home">Home</a>
+      <a href="#about">Sobre</a>
+      <a href="#services">Serviços</a>
+      <a href="#content">Contatos</a>
+      <a href="#gallery">Clientes</a>
+    </nav>
     <main id="home">
+      <div style="background-color: aqua">ATENDIMENTO</div>
       <h1>Compacta Consult</h1>
       <a class="more" href="#about">Saiba Mais</a>
     </main>
     <section id="budget">
       <div>
-        <h2>ASSISTÊNCIA TÉCNICA</h2>
+        <h2>Nossos Serviços</h2>
         <div class="services-category">
           <ul>
-            <li>Horario Comercial</li>
             <li>Impressoras</li>
             <li>Monitores</li>
             <li>Sistemas</li>
           </ul>
           <ul>
-            <li>SEG a DOM</li>
             <li>Nobreaks</li>
             <li>Computadores</li>
             <li>Cameras</li>
@@ -114,7 +80,7 @@
     </section>
     <section id="services">
       <h2 class="title-section">
-        NOSSOS SERVIÇOS
+        OFERECEMOS
         <hr class="line-section" />
       </h2>
       <div class="card-section">
@@ -167,7 +133,7 @@
     </section>
     <section id="gallery">
       <h2 class="title-section">
-        GALERIA
+        CLIENTES
         <hr class="line-section" />
       </h2>
       <div class="grid-gallery">
@@ -304,7 +270,7 @@
           <input
             type="hidden"
             name="accessKey"
-            value="4ca6187b-cc13-4d61-ae1a-c783ff0089bd"
+            value="fd69a8b9-7937-49af-8e65-3608609dd1a1"
           />
           <input
             type="hidden"
@@ -391,6 +357,7 @@
             <li>Nobreaks.</li>
             <li>Monitores.</li>
             <li>Computadores.</li>
+            <li>Sistemas.</li>
           </ul>
         </div>
       </div>
@@ -431,5 +398,6 @@
       gtag("config", "UA-208667854-1");
     </script>
     <script src="src/js/cookies.js"></script>
+    <script src="src/js/script_nav.js"></script>
   </body>
 </html>
