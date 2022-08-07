@@ -21,6 +21,7 @@ html {
   scroll-padding-top: 0;
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
+  margin: 0;
 }
 #logo p {
   color: white;
@@ -505,9 +506,6 @@ footer {
   display: flex;
 }
 
-#links a {
-  color: white;
-}
 
 /* width */
 ::-webkit-scrollbar {
@@ -760,5 +758,15 @@ footer {
   }
 
   /* //atendimento */
-  
+  .at a {
+    color: white;
+    text-decoration: none !important;
+    border: solid ;
+    border-color: red ;
+    border-radius: 11px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Arial Narrow";
+  }
+
 }
