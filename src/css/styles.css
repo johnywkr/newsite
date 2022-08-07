@@ -131,7 +131,7 @@ main .more {
 }
 
 main a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(252, 251, 249);
   font-size: 150%;
 }
