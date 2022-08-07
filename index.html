@@ -81,7 +81,9 @@
     </header>
 
     <main id="home">
-      <div class="at"><a href="src/view/index.html" target="_blank">ATENDIMENTO AO CLIENTE</a></div>
+      <div class="at">
+        <a href="src/view/index.html" target="_blank">ATENDIMENTO AO CLIENTE</a>
+      </div>
       <h1>Compacta Consult</h1>
       <a class="more" href="#about">Saiba Mais</a>
     </main>
@@ -304,7 +306,7 @@
             name="redirectTo"
             value="https://dreamy-sundae-05f523.netlify.app/index.html"
           />
-          <h1>Entre em Contato !</h1>
+          <h1>Faça seu orçamento!</h1>
           <!-- Name input -->
           <div class="form-outline mb-4">
             <input
@@ -343,13 +345,22 @@
               maxlength="150"
             ></textarea>
             <label class="form-label" for="form4Example3"
-              >Escreva sua mensagem aqui !</label
+              >Escreva sua mensagem acima ou entre em contato pelo whatsapp.</label
             >
+            
           </div>
 
           <!-- Submit button -->
           <button type="submit" class="btn btn-primary btn-block mb-4" id="btn">
             Enviar
+          </button>
+          <!-- Button whatsapp -->
+          <button id="btn2" class="btn btn-success">
+            <a
+              href="https://api.whatsapp.com/send?phone=55556198733411&text=Problema%20T%C3%A9cnico%20Preciso%20de%20Suporte%20!"
+              target="_blank"
+              >Whatsapp</a
+            >
           </button>
         </form>
       </div>

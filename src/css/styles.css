@@ -349,7 +349,7 @@ section#about #contact #bt button:hover {
 section#about #contact div span,
 a {
   color: var(--text-gray);
-  color: #070707d2;
+  color: #868484;
 }
 section#about #contact div .email {
   text-decoration: underline;
@@ -428,6 +428,17 @@ button {
   border-color: transparent;
   margin-top: 10px;
   margin-left: 10px;
+}
+#btn2 a{
+  color: white;
+}
+
+ #btn2{
+  background-color: #198754 !important;
+}
+
+#btn2:hover{
+  background-color: #15b66b !important;
 }
 
 button:hover {
