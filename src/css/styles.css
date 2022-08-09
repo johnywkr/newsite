@@ -37,7 +37,7 @@ header {
 header img {
   width: 180px;
   height: 40px;
-  margin-left: 30px;
+  margin-left: 40%;
 }
 
 .btn-abrir {
@@ -375,6 +375,12 @@ textarea {
 #form img {
   width: 550px;
 }
+.title {
+  color: #fff;
+  text-shadow: #000 3px 3px;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
 
 input:focus,
 textarea:focus {
@@ -587,81 +593,33 @@ footer {
   #header {
     padding: 1rem 1rem;
   }
-  #menu {
-    background: rgb(46, 44, 44);
-    width: 100%;
-    height: 0px;
-    top: 100px;
-    right: 0px;
-    position: absolute;
-    transition: 0.6s;
-    z-index: 1000;
-    visibility: hidden;
-    overflow-y: hidden;
-    display: block;
-  }
-  #nav.active #menu {
-    height: calc(100vh - 70px);
-    visibility: visible;
-    overflow-y: auto;
-  }
-  #menu a {
-    padding: 1rem 0;
-    margin: 0 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-  }
-  #btn-mobile {
-    color: rgb(7, 240, 248);
-    display: flex;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap: 0.5rem;
-  }
-  #hamburger {
-    border-top: 2px solid;
-    width: 20px;
-  }
-  #hamburger::after,
-  #hamburger::before {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: 0.3s;
-    position: relative;
-  }
-  #nav.active #hamburger {
-    border-top-color: transparent;
-  }
-  #nav.active #hamburger::before {
-    transform: rotate(135deg);
-  }
-  #nav.active #hamburger::after {
-    transform: rotate(-135deg);
-    top: -7px;
-  }
-  #menu a hr {
-    display: none;
+
+  header img {
+    width: 180px;
+    height: 40px;
+    margin-left: 30px;
   }
 
-main{
-  min-height: 70vh;
-}
+  header img {
+    margin-left: 48px;
+  }
+
+  main {
+    min-height: 70vh;
+  }
 
   main h1 {
     width: 80%;
-    height: 25px;
+    height: 45px;
     font-size: 3rem;
     text-align: center;
   }
 
-  main .more{
+  main .more {
     margin-bottom: 110px;
+    text-decoration: none;
+    color: white;
+    text-shadow: #0c0c0c 2px 2px;
   }
   section#budget {
     min-height: 40vh;
@@ -770,6 +728,10 @@ main{
   }
 
   /* //atendimento */
+  .at {
+    width: 110%;
+    margin-top: 60px;
+  }
   .at a {
     color: white;
     text-decoration: none !important;
