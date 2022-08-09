@@ -40,45 +40,19 @@
     />
   </head>
   <body>
-    <header id="header">
-      <a id="logo" href="">
-        <p>Compacta Consult</p>
-      </a>
-      <nav id="nav">
-        <button
-          aria-label="Abrir Menu"
-          id="btn-mobile"
-          aria-haspopup="true"
-          aria-controls="menu"
-          aria-expanded="false"
-        >
-          <span id="hamburger"></span>
-        </button>
-        <ul id="menu" role="menu">
-          <li class="nav-item">
-            <a class="active" href="#home">
-              Home
-              <hr />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#services"> Serviços </a>
-          </li>
-          <li class="nav-item">
-            <a href="#gallery"> Galeria </a>
-          </li>
-          <li class="nav-item">
-            <a href="#about"> Sobre </a>
-          </li>
-          <li class="nav-item">
-            <a href="#content"> Contatos </a>
-          </li>
-          <!-- <li class="nav-item">
-            <a href="src/view/index.html"> Suporte </a>
-          </li> -->
-        </ul>
-      </nav>
+    <header class="side">
+      <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776; </a>
+      <img class="logo" src="src/images/logo.png" alt=""  >
     </header>
+    
+    <nav id="side">
+      <a class="side" href="#" onclick="fecharMenu()">&times; Fechar</a>
+      <a class="side" href="#">Home</a>
+      <a class="side" href="#">sobre</a>
+      <a class="side" href="#">Contatos</a>
+      <a class="side" href="#">Youtube</a>
+      <a class="side" href="#">Alterado</a>
+    </nav>
 
     <main id="home">
       <div class="at">
