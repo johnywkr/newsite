@@ -511,6 +511,12 @@ footer {
   display: flex;
 }
 
+.icons  i{
+  padding: 10px;
+  color: rgb(12, 12, 12);
+  
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
