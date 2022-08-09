@@ -22,11 +22,6 @@ html {
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
 }
-p {
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
 
 #header {
   background: #000d36;
@@ -39,15 +34,6 @@ p {
   justify-content: space-between;
   display: flex;
   position: fixed;
-}
-
-#header a {
-  text-decoration: none;
-}
-
-#header a,
-p:hover {
-  color: #02fff2;
 }
 
 #header h1 {
@@ -169,7 +155,7 @@ form {
 }
 
 #btn2:hover {
-  background-color: #15b66b ;
+  background-color: #15b66b;
 }
 
 @media (max-width: 600px) {
@@ -181,20 +167,13 @@ form {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 22px;
-    padding: 7px;
-    border: none;
-    border-color: none;
+    padding: 8px;
     border-radius: 11px;
+    margin-top: 10px;
   }
 
-  p {
-    display: inline;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 40px;
-    border: solid;
-    border-color: #ff0000;
-    border-radius: 11px;
+  header img {
+    margin-left: 68px;
   }
 
   #text {

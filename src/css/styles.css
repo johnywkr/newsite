@@ -80,6 +80,26 @@ main {
   display: none;
 }
 
+.topo-button {
+  background-color: #0b35c0;
+  color: #fff;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+  border: solid;
+  border-color: #080808;
+  border-radius: 4rem;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  text-decoration: none;
+}
+
+
 main {
   background-image: url(https://cdn2.hubspot.net/hubfs/2973708/Blog%20de%20Sistemas%20de%20Informa%C3%A7%C3%A3o/curso-de-sistemas-de-informacao.jpg);
   background-repeat: no-repeat;
